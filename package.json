@@ -1,0 +1,17 @@
+{
+  "name": "mern-starter",
+  "version": "1.0.0",
+  "description": "Mern Starter for projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run dev-server\" \"npm run client\"",
+    "dev-server": "cd server && npm run dev"
+  },
+  "author": "Rhys Ly",
+  "license": "ISC"
+}
