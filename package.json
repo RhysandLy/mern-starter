@@ -13,5 +13,8 @@
     "dev-server": "cd server && npm run dev"
   },
   "author": "Rhys Ly",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
 }
